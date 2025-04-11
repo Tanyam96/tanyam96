@@ -1,0 +1,86 @@
+body {
+    background-color: #B1F0F7;
+    color: #023449;
+}
+h1, h2 {
+    color: #0679aa;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F0CD;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+.profile_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profile_info {
+    text-align: center;
+}
+section {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+.footer {
+    text-align: center;
+
+    background-color: #F5F0CD;
+    margin-top: 20px;
+    list-style: none;
+}
+.social_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    gap: 10px;
+    list-style: none;
+}
+.reference > a {
+    color: #0679aa;
+    text-decoration: none;
+    font-size: small;
+}
+.copyright_section {
+    margin-top: 20px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.submitbtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0679aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+table,
+th,
+td {
+  border: 1.5px solid #60accc;
+}
+
+/* media queries */
+@media screen and (max-width: 480px) {
+    .profile_pic {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  input:focus {
+    outline:none;
+}
